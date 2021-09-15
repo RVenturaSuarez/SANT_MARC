@@ -6,8 +6,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+    [Header("Velocities")] 
     public float speed;
+    public float crouchSpeed;
+    public float runSpeed;
     public float rotationSpeed;
+    
+    [Header("Forces")]
     public float jumpForce;
 
     private const string HORIZONTAL_STR = "Horizontal";
@@ -16,10 +21,13 @@ public class PlayerController : MonoBehaviour
     private const string VELY_STR = "VelY";
     private const string SALTE_STR = "Salte";
     private const string TOCO_SUELO_STR = "TocoSuelo";
+    private const string AGACHADO_STR = "Agachado";
+    private const string CORRIENDO_STR = "Corriendo";
     
     private float horizontalInput;
     private float verticalInput;
     private bool canJump;
+    private float initialSpeed;
     
     private Rigidbody _rigidbody;
     private Animator _animator;
@@ -27,6 +35,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        initialSpeed = speed;
+        
         // Inicializamos los componentes del player
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
@@ -51,6 +61,31 @@ public class PlayerController : MonoBehaviour
             {
                 Jump();
             }
+            
+            if (Input.GetKey(KeyCode.LeftControl))
+            {
+                _animator.SetBool(AGACHADO_STR, true);
+                speed = crouchSpeed;
+            }
+            else
+            {
+                _animator.SetBool(AGACHADO_STR, false);
+                speed = initialSpeed;
+            }
+            
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                _animator.SetBool(CORRIENDO_STR, true);
+                speed = runSpeed;
+            }
+            else
+            {
+                _animator.SetBool(CORRIENDO_STR, false);
+                speed = initialSpeed;
+            }
+            
+            
+            
             _animator.SetBool(TOCO_SUELO_STR, true);
         }
         else
