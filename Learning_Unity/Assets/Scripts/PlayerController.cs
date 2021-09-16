@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     
     [Header("Forces")]
     public float jumpForce;
+    public float impulsoGolpe;
 
     private const string HORIZONTAL_STR = "Horizontal";
     private const string VERTICAL_STR = "Vertical";
@@ -23,11 +24,14 @@ public class PlayerController : MonoBehaviour
     private const string TOCO_SUELO_STR = "TocoSuelo";
     private const string AGACHADO_STR = "Agachado";
     private const string CORRIENDO_STR = "Corriendo";
+    private const string GOLPEO_STR = "Golpeo";
     
     private float horizontalInput;
     private float verticalInput;
     private bool canJump;
     private float initialSpeed;
+    private bool estoyAtacando;
+    private bool avanzoSolo;
     
     private Rigidbody _rigidbody;
     private Animator _animator;
@@ -53,38 +57,46 @@ public class PlayerController : MonoBehaviour
         _animator.SetFloat(VELX_STR, horizontalInput);
         _animator.SetFloat(VELY_STR, verticalInput);
 
+
+        if (Input.GetKeyDown(KeyCode.Mouse0) && canJump && !estoyAtacando)
+        {
+            _animator.SetTrigger(GOLPEO_STR);
+            estoyAtacando = true;
+        }
+        
         
         // Comprobamos si el jugador puede saltar y aplicamos la lógica correspondiente
         if (canJump)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (!estoyAtacando)
             {
-                Jump();
-            }
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    Jump();
+                }
             
-            if (Input.GetKey(KeyCode.LeftControl))
-            {
-                _animator.SetBool(AGACHADO_STR, true);
-                speed = crouchSpeed;
-            }
-            else
-            {
-                _animator.SetBool(AGACHADO_STR, false);
-                speed = initialSpeed;
-            }
+                if (Input.GetKey(KeyCode.LeftControl))
+                {
+                    _animator.SetBool(AGACHADO_STR, true);
+                    speed = crouchSpeed;
+                }
+                else
+                {
+                    _animator.SetBool(AGACHADO_STR, false);
+                    speed = initialSpeed;
+                }
             
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                _animator.SetBool(CORRIENDO_STR, true);
-                speed = runSpeed;
+                if (Input.GetKey(KeyCode.LeftShift))
+                {
+                    _animator.SetBool(CORRIENDO_STR, true);
+                    speed = runSpeed;
+                }
+                else
+                {
+                    _animator.SetBool(CORRIENDO_STR, false);
+                    speed = initialSpeed;
+                } 
             }
-            else
-            {
-                _animator.SetBool(CORRIENDO_STR, false);
-                speed = initialSpeed;
-            }
-            
-            
             
             _animator.SetBool(TOCO_SUELO_STR, true);
         }
@@ -98,9 +110,17 @@ public class PlayerController : MonoBehaviour
     
     private void FixedUpdate()
     {
-        // Lógica para el desplazamiento del jugador
-        transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * speed);
-        transform.Rotate(Vector3.up * Time.deltaTime * horizontalInput * rotationSpeed);
+        if (!estoyAtacando)
+        {
+            // Lógica para el desplazamiento del jugador
+            transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * speed);
+            transform.Rotate(Vector3.up * Time.deltaTime * horizontalInput * rotationSpeed); 
+        }
+        
+        if (avanzoSolo)
+        {
+            _rigidbody.velocity = transform.forward * impulsoGolpe;
+        }
     }
 
     /// <summary>
@@ -128,5 +148,20 @@ public class PlayerController : MonoBehaviour
     public bool CanJump {
         get => canJump;
         set => canJump = value;
+    }
+
+    public void DejeDeGolpear()
+    {
+        estoyAtacando = false;
+    }
+
+    public void AvanzoSolo()
+    {
+        avanzoSolo = true;
+    }
+
+    public void DejoDeAvanzar()
+    {
+        avanzoSolo = false;
     }
 }

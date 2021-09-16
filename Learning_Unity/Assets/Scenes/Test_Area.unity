@@ -557,6 +557,10 @@ PrefabInstance:
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3121146892205934600, guid: 8000ac8ea396edc43b2c6409c5900ac5, type: 3}
+      propertyPath: impulsoGolpe
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121146892205934600, guid: 8000ac8ea396edc43b2c6409c5900ac5, type: 3}
       propertyPath: rotationSpeed
       value: 150
       objectReference: {fileID: 0}
