@@ -9,11 +9,13 @@ public class PiesPlayer : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        Debug.Log("Puedo saltar true");
         playerController.CanJump = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log("Puedo saltar false");
         playerController.CanJump = false;
     }
 }

@@ -1,0 +1,2891 @@
+fileFormatVersion: 2
+guid: 86319896ec6c5ed4c96eb12c35c99608
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Max_Maxter_FINAL_OK:M_root_jnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_leg_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_leg_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_knee_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_knee_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_foot_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_foot_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:M_spine_00_jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:M_spine_01_jnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:M_neck_jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:M_head_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_clavicle_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_clavicle_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_shoulder_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_shoulder_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_elbow_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_elbow_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_wrist_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_wrist_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_toe_jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_toe_jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_ear_jnt
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_ear_jnt
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:M_jaw_jnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_thumbBase_jnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_thumb_01_jnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_indexBase_jnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_index_01_jnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_index_02_jnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_middleBase_jnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_middle_01_jnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_middle_02_jnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_ringBase_jnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_ring_01_jnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:L_ring_02_jnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_thumbBase_jnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_thumb_01_jnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_indexBase_jnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_index_01_jnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_index_02_jnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_middleBase_jnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_middle_01_jnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_middle_02_jnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_ringBase_jnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_ring_01_jnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:R_ring_02_jnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max_Maxter_FINAL_OK:M_spine_02_jnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: T_Pose_MM(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:model_grp
+      parentName: T_Pose_MM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Max_Maxter
+      parentName: Max_Maxter_FINAL_OK:model_grp
+      position: {x: 0.00000023872687, y: 0.007805934, z: -0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Body
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.00000023872687, y: -0.007805934, z: 0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_hair_elbow
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.00000023872687, y: -0.007805934, z: 0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_hair_elbow
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.00000023872687, y: -0.007805934, z: 0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Tongue
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.00000023872687, y: -0.007805934, z: 0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Eyes
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.00000023872687, y: -0.007805934, z: 0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_beard
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.00000023872687, y: -0.007805934, z: 0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_beard
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.00000023872687, y: -0.007805934, z: 0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Fringe
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.00000023872687, y: -0.007805934, z: 0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Fangs_grp
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.000051267787, y: -0.0065924977, z: 0.0036517703}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Down_fangs
+      parentName: Max_Maxter_FINAL_OK:Fangs_grp
+      position: {x: 0.000051029056, y: -0.0012134364, z: -0.0014750966}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Up_fangs
+      parentName: Max_Maxter_FINAL_OK:Fangs_grp
+      position: {x: 0.000051029056, y: -0.0012134364, z: -0.0014750966}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Sombrero
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: -0.00000023872687, y: -0.007805934, z: 0.0021766734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:BoomerangCarcaj_grp
+      parentName: Max_Maxter_FINAL_OK:Max_Maxter
+      position: {x: 0.00015721585, y: 0.0020019878, z: 0.002015757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Boomerang
+      parentName: Max_Maxter_FINAL_OK:BoomerangCarcaj_grp
+      position: {x: -0.00015745457, y: -0.009807922, z: 0.0001609166}
+      rotation: {x: -7.1215175e-17, y: 0, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Carcaj_grp
+      parentName: Max_Maxter_FINAL_OK:BoomerangCarcaj_grp
+      position: {x: -0, y: -0.00015827197, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Correa
+      parentName: Max_Maxter_FINAL_OK:Carcaj_grp
+      position: {x: -0.00015745457, y: -0.00964965, z: 0.0001609166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:Carcaj
+      parentName: Max_Maxter_FINAL_OK:Carcaj_grp
+      position: {x: -0.00015745457, y: -0.00964965, z: 0.0001609166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:skeleton_grp
+      parentName: T_Pose_MM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_root_jnt
+      parentName: Max_Maxter_FINAL_OK:skeleton_grp
+      position: {x: -3.7303492e-18, y: 0.005289606, z: 0.00011198806}
+      rotation: {x: 0.011071842, y: -0.7070201, z: -0.011071842, w: 0.7070201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spineBase_jnt
+      parentName: Max_Maxter_FINAL_OK:M_root_jnt
+      position: {x: -0.0004268052, y: -1.2434497e-18, z: -1.2301733e-18}
+      rotation: {x: -0.6387393, y: 0.76942325, z: -2.892863e-17, w: 4.5802002e-15}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_00_jnt
+      parentName: Max_Maxter_FINAL_OK:M_spineBase_jnt
+      position: {x: -0.0013403516, y: 0, z: 5.1370017e-17}
+      rotation: {x: -4.3540617e-17, y: -1.5856973e-16, z: -0.09681217, w: 0.9953027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_01_jnt
+      parentName: Max_Maxter_FINAL_OK:M_spine_00_jnt
+      position: {x: -0.001284124, y: -1.9428902e-19, z: 4.9893424e-17}
+      rotation: {x: -0.0000000105249525, y: 4.9771764e-10, z: -0.047236513, w: 0.9988837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_02_jnt
+      parentName: Max_Maxter_FINAL_OK:M_spine_01_jnt
+      position: {x: -0.0014028361, y: -8.548717e-19, z: 5.42455e-17}
+      rotation: {x: 0, y: -0, z: -0.0412166, w: 0.9991503}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_03_jnt
+      parentName: Max_Maxter_FINAL_OK:M_spine_02_jnt
+      position: {x: -0.0008905145, y: -7.771561e-19, z: 3.3970703e-17}
+      rotation: {x: 0, y: 0, z: 0.060688086, w: 0.9981568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_04_jnt
+      parentName: Max_Maxter_FINAL_OK:M_spine_03_jnt
+      position: {x: -0.0008731721, y: -4.6629365e-19, z: 3.3879836e-17}
+      rotation: {x: 0, y: -0, z: -0.06428214, w: 0.9979318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_neck_jnt
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_jnt
+      position: {x: -0.001075345, y: 1.2434497e-18, z: 4.112335e-17}
+      rotation: {x: 0, y: 0, z: 0.073208675, w: 0.99731666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_head_jnt
+      parentName: Max_Maxter_FINAL_OK:M_neck_jnt
+      position: {x: -0.0016278394, y: 4.2743586e-19, z: -1.1334993e-20}
+      rotation: {x: -0.000000016653857, y: -4.5264628e-10, z: 0.027169637, w: 0.99963087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_headEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:M_head_jnt
+      position: {x: -0.0016782645, y: 3.1086244e-18, z: -2.2814835e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ear_jnt
+      parentName: Max_Maxter_FINAL_OK:M_head_jnt
+      position: {x: -0.00023419931, y: 0.0003910132, z: -0.00092991575}
+      rotation: {x: 0.37206766, y: -0.27847525, z: -0.13377248, w: 0.8752841}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_earEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ear_jnt
+      position: {x: -0.0010209839, y: 5.828671e-19, z: 3.7303492e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ear_jnt
+      parentName: Max_Maxter_FINAL_OK:M_head_jnt
+      position: {x: -0.00023422539, y: 0.00039101584, z: 0.0009299147}
+      rotation: {x: 0.27847522, y: 0.3720676, z: 0.8752841, w: 0.13377245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_earEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ear_jnt
+      position: {x: 0.0010209531, y: 0.0000000046892654, z: 0.000000019210589}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_jaw_jnt
+      parentName: Max_Maxter_FINAL_OK:M_head_jnt
+      position: {x: 0.00057536364, y: -0.00043994116, z: -1.4658828e-11}
+      rotation: {x: 1.5946778e-14, y: -0.000000030623827, z: 0.9190823, w: 0.39406565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_jawEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:M_jaw_jnt
+      position: {x: -0.0009584198, y: 1.3677948e-17, z: 2.5940384e-25}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_clavicle_jnt
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_jnt
+      position: {x: -0.00020524836, y: -0.00023145282, z: -0.0004165735}
+      rotation: {x: 0.66005, y: -0.44823387, z: 0.43580058, w: 0.41653144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_shoulder_jnt
+      parentName: Max_Maxter_FINAL_OK:L_clavicle_jnt
+      position: {x: -0.0008460164, y: 1.6820295e-11, z: 1.1692457e-11}
+      rotation: {x: -0.028511515, y: 0.15464628, z: 0.120002866, w: 0.98024035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_elbow_jnt
+      parentName: Max_Maxter_FINAL_OK:L_shoulder_jnt
+      position: {x: -0.0023068325, y: 4.973799e-18, z: 4.0555267e-11}
+      rotation: {x: -0.004479826, y: 0.01644803, z: -0.026090976, w: 0.9995143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wrist_jnt
+      parentName: Max_Maxter_FINAL_OK:L_elbow_jnt
+      position: {x: -0.002353516, y: 1.7959842e-12, z: 4.1483192e-11}
+      rotation: {x: 0.009541437, y: -0.062229574, z: -0.028875291, w: 0.9975985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wristEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wrist_jnt
+      position: {x: -0.00087473844, y: 0, z: -7.771561e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringBase_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wrist_jnt
+      position: {x: -0.001115001, y: 0.00010583458, z: -0.00033955154}
+      rotation: {x: -0.01789089, y: 0.0011304162, z: 0.029545039, w: 0.99940276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ring_01_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ringBase_jnt
+      position: {x: -0.0005573336, y: 9.947598e-18, z: 1.3988809e-18}
+      rotation: {x: -0.00045686125, y: -0.012188898, z: 0.027480444, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ring_02_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ring_01_jnt
+      position: {x: -0.0004829661, y: -3.2329692e-17, z: -2.9143356e-18}
+      rotation: {x: 0.000010253602, y: -0.00014490634, z: 0.007979559, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ring_02_jnt
+      position: {x: -0.00033087187, y: 3.9790392e-17, z: 8.548717e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleBase_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wrist_jnt
+      position: {x: -0.0011185135, y: 0.00011283068, z: -0.0000057846028}
+      rotation: {x: -0.0007588914, y: 0.0032764687, z: 0.028778208, w: 0.99958014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middle_01_jnt
+      parentName: Max_Maxter_FINAL_OK:L_middleBase_jnt
+      position: {x: -0.00064762816, y: -4.973799e-18, z: 3.8857804e-19}
+      rotation: {x: -0.00031138564, y: -0.01112124, z: -0.009343869, w: 0.9998945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middle_02_jnt
+      parentName: Max_Maxter_FINAL_OK:L_middle_01_jnt
+      position: {x: -0.0004915608, y: 2.7355895e-17, z: -1.4765966e-18}
+      rotation: {x: -0.0004401506, y: -0.00887931, z: 0.030876404, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:L_middle_02_jnt
+      position: {x: -0.0004398636, y: -9.947598e-18, z: -2.2926105e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexBase_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wrist_jnt
+      position: {x: -0.0011260717, y: 0.00010440713, z: 0.000316284}
+      rotation: {x: 0.016928116, y: 0.0025783048, z: 0.028680272, w: 0.99944204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_index_01_jnt
+      parentName: Max_Maxter_FINAL_OK:L_indexBase_jnt
+      position: {x: -0.00063529774, y: -2.2382095e-17, z: 4.0412116e-18}
+      rotation: {x: 0.00056842115, y: 0.010331998, z: 0.014476964, w: 0.9998417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_index_02_jnt
+      parentName: Max_Maxter_FINAL_OK:L_index_01_jnt
+      position: {x: -0.00042209335, y: 2.9842794e-17, z: -2.4868995e-18}
+      rotation: {x: -0.002158805, y: -0.028456463, z: 0.003764778, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:L_index_02_jnt
+      position: {x: -0.00044875656, y: -3.2329692e-17, z: 1.5543122e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbBase_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wrist_jnt
+      position: {x: -0.0004779232, y: -0.00026395454, z: 0.00041448473}
+      rotation: {x: 0.4447801, y: 0.3284274, z: -0.14633705, w: 0.82029974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumb_01_jnt
+      parentName: Max_Maxter_FINAL_OK:L_thumbBase_jnt
+      position: {x: -0.00059549115, y: -3.5127456e-17, z: 6.4659385e-17}
+      rotation: {x: -0.033839136, y: -0.018517897, z: 0.030177195, w: 0.99880004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:L_thumb_01_jnt
+      position: {x: -0.0005707558, y: 6.2172487e-19, z: -2.9842794e-17}
+      rotation: {x: -0.052335955, y: 0, z: -0, w: 0.9986295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_clavicle_jnt
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_jnt
+      position: {x: -0.00020525233, y: -0.0002314535, z: 0.00041657328}
+      rotation: {x: 0.4482354, y: 0.66004765, z: 0.41652948, w: -0.43580437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_shoulder_jnt
+      parentName: Max_Maxter_FINAL_OK:R_clavicle_jnt
+      position: {x: 0.0008460206, y: -0.000000011292795, z: -7.252214e-10}
+      rotation: {x: -0.028512677, y: 0.15464169, z: 0.11999148, w: 0.9802424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_elbow_jnt
+      parentName: Max_Maxter_FINAL_OK:R_shoulder_jnt
+      position: {x: 0.002306831, y: 0.000000035456132, z: -0.000000001871522}
+      rotation: {x: -0.004479284, y: 0.01645195, z: -0.026084987, w: 0.99951434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_wrist_jnt
+      parentName: Max_Maxter_FINAL_OK:R_elbow_jnt
+      position: {x: 0.0023535176, y: -2.940754e-11, z: 0.0000000022338438}
+      rotation: {x: 0.00954186, y: -0.062229455, z: -0.028866539, w: 0.99759865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_wristEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wrist_jnt
+      position: {x: 0.00087473943, y: -0.00000003478822, z: -7.771561e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringBase_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wrist_jnt
+      position: {x: 0.001115006, y: -0.000105879386, z: 0.00033955104}
+      rotation: {x: -0.017890763, y: 0.0011299283, z: 0.029524866, w: 0.99940336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ring_01_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ringBase_jnt
+      position: {x: 0.0005573669, y: 0.000000009854381, z: 0.0000000024525466}
+      rotation: {x: -0.00045686125, y: -0.012188898, z: 0.027480444, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ring_02_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ring_01_jnt
+      position: {x: 0.00048291133, y: 0.00000001714745, z: -5.0441196e-10}
+      rotation: {x: 0.000010253613, y: -0.00014490634, z: 0.007979559, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ring_02_jnt
+      position: {x: 0.00033090368, y: -0.000000011815501, z: 7.087115e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleBase_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wrist_jnt
+      position: {x: 0.0011185181, y: -0.000112850495, z: 0.0000057847847}
+      rotation: {x: -0.0007590128, y: 0.0032766492, z: 0.02879042, w: 0.99957985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middle_01_jnt
+      parentName: Max_Maxter_FINAL_OK:R_middleBase_jnt
+      position: {x: 0.00064763287, y: -0.000000024711774, z: 3.949221e-11}
+      rotation: {x: -0.00031138564, y: -0.01112124, z: -0.009343869, w: 0.9998945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middle_02_jnt
+      parentName: Max_Maxter_FINAL_OK:R_middle_01_jnt
+      position: {x: 0.0004915592, y: 0.0000000042873607, z: 1.2597913e-10}
+      rotation: {x: -0.0004401506, y: -0.00887931, z: 0.030876404, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:R_middle_02_jnt
+      position: {x: 0.00043986543, y: 0.000000017551391, z: -7.876943e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexBase_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wrist_jnt
+      position: {x: 0.0011260754, y: -0.000104420185, z: -0.0003162838}
+      rotation: {x: 0.016928313, y: 0.002578157, z: 0.028671328, w: 0.9994422}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_index_01_jnt
+      parentName: Max_Maxter_FINAL_OK:R_indexBase_jnt
+      position: {x: 0.0006352684, y: 2.513855e-10, z: -1.984903e-10}
+      rotation: {x: 0.00056842115, y: 0.010331998, z: 0.014476964, w: 0.9998417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_index_02_jnt
+      parentName: Max_Maxter_FINAL_OK:R_index_01_jnt
+      position: {x: 0.00042212254, y: 0.000000021196552, z: -1.6204637e-11}
+      rotation: {x: -0.002158805, y: -0.028456463, z: 0.003764778, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:R_index_02_jnt
+      position: {x: 0.00044872286, y: -0.000000048998814, z: 0.0000000025662976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbBase_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wrist_jnt
+      position: {x: 0.00047792456, y: 0.00026393126, z: -0.0004144846}
+      rotation: {x: 0.44478697, y: 0.32843468, z: -0.14632748, w: 0.82029486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumb_01_jnt
+      parentName: Max_Maxter_FINAL_OK:R_thumbBase_jnt
+      position: {x: 0.00059548137, y: -0.000000009294875, z: 0.00000002336815}
+      rotation: {x: -0.033843927, y: -0.018581267, z: 0.03016121, w: 0.9987991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:R_thumb_01_jnt
+      position: {x: 0.000570748, y: 0.000000022607828, z: -0.00000006554932}
+      rotation: {x: -0.052335955, y: -1.0622244e-17, z: -5.992035e-18, w: 0.9986295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_hip_jnt
+      parentName: Max_Maxter_FINAL_OK:M_root_jnt
+      position: {x: 1.4571677e-19, y: -1.8651746e-18, z: -1.2434497e-18}
+      rotation: {x: 0.6409971, y: 0.7675434, z: -9.307528e-15, w: 1.1240557e-14}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_hipEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:M_hip_jnt
+      position: {x: -0.0013570075, y: -7.771561e-19, z: -2.3939693e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tailBase_jnt
+      parentName: Max_Maxter_FINAL_OK:M_hip_jnt
+      position: {x: -0.001487804, y: -0.0014021385, z: -6.420324e-17}
+      rotation: {x: 0.69990593, y: 0.71423507, z: 3.0393876e-15, w: -3.014126e-15}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_00_jnt
+      parentName: Max_Maxter_FINAL_OK:M_tailBase_jnt
+      position: {x: -0.0010730918, y: 1.8651746e-18, z: 7.110719e-18}
+      rotation: {x: 0, y: -0, z: -0.028292893, w: 0.9995997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_01_jnt
+      parentName: Max_Maxter_FINAL_OK:M_tail_00_jnt
+      position: {x: -0.0008831391, y: -1.8651746e-18, z: 4.061585e-18}
+      rotation: {x: 0, y: -0, z: -0.004791251, w: 0.99998856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_02_jnt
+      parentName: Max_Maxter_FINAL_OK:M_tail_01_jnt
+      position: {x: -0.0007751439, y: 6.2172487e-19, z: 3.297548e-18}
+      rotation: {x: 0, y: -0, z: -0.032164667, w: 0.99948263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_03_jnt
+      parentName: Max_Maxter_FINAL_OK:M_tail_02_jnt
+      position: {x: -0.0009981919, y: 1.8651746e-18, z: 1.9261533e-18}
+      rotation: {x: 0, y: -0, z: -0.011962646, w: 0.9999285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_04_jnt
+      parentName: Max_Maxter_FINAL_OK:M_tail_03_jnt
+      position: {x: -0.00073145115, y: -1.2434497e-18, z: 7.773169e-19}
+      rotation: {x: 0, y: 0, z: 0.009428594, w: 0.9999556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_05_jnt
+      parentName: Max_Maxter_FINAL_OK:M_tail_04_jnt
+      position: {x: -0.0007477862, y: -6.2172487e-19, z: 1.3056856e-18}
+      rotation: {x: 0, y: 0, z: 0.0009241227, w: 0.9999996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tailEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:M_tail_05_jnt
+      position: {x: -0.00056007615, y: 7.4606985e-18, z: -1.1044052e-32}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_leg_jnt
+      parentName: Max_Maxter_FINAL_OK:M_hip_jnt
+      position: {x: -0.0011009274, y: -0.00042046257, z: -0.0011116093}
+      rotation: {x: -0.00069795415, y: -0.007259714, z: -0.047220517, w: 0.99885786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_knee_jnt
+      parentName: Max_Maxter_FINAL_OK:L_leg_jnt
+      position: {x: -0.0017697851, y: -1.5543122e-18, z: 2.0206059e-17}
+      rotation: {x: 0.00070531474, y: -0.0017709823, z: 0.35239637, w: 0.9358489}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_foot_jnt
+      parentName: Max_Maxter_FINAL_OK:L_knee_jnt
+      position: {x: -0.0023757808, y: -2.9531932e-18, z: 1.5698553e-17}
+      rotation: {x: -0.0029337078, y: 0.008236025, z: -0.816812, w: 0.57683784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_toe_jnt
+      parentName: Max_Maxter_FINAL_OK:L_foot_jnt
+      position: {x: -0.0019153222, y: -5.440093e-19, z: 1.1968204e-17}
+      rotation: {x: 0, y: -0, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_toeEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:L_toe_jnt
+      position: {x: -0.0010811185, y: 4.2743586e-19, z: 3.1086244e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_leg_jnt
+      parentName: Max_Maxter_FINAL_OK:M_hip_jnt
+      position: {x: -0.001100926, y: -0.0004204622, z: 0.001111607}
+      rotation: {x: 0.0072597573, y: -0.0006979366, z: 0.99885786, w: 0.04722055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_knee_jnt
+      parentName: Max_Maxter_FINAL_OK:R_leg_jnt
+      position: {x: 0.0017697853, y: 3.5871035e-11, z: -5.2691183e-17}
+      rotation: {x: 0.00070529006, y: -0.0017709427, z: 0.3523963, w: 0.9358489}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_foot_jnt
+      parentName: Max_Maxter_FINAL_OK:R_knee_jnt
+      position: {x: 0.0023757825, y: -2.288716e-10, z: -6.403766e-17}
+      rotation: {x: -0.0029336943, y: 0.008236043, z: -0.8168119, w: 0.5768379}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_toe_jnt
+      parentName: Max_Maxter_FINAL_OK:R_foot_jnt
+      position: {x: 0.001915322, y: -2.691713e-10, z: -1.1346479e-17}
+      rotation: {x: 0.0000000074377877, y: -4.3535436e-10, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_toeEnd_jnt
+      parentName: Max_Maxter_FINAL_OK:R_toe_jnt
+      position: {x: 0.0010811201, y: 5.631443e-12, z: -1.7097434e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:controls_grp
+      parentName: T_Pose_MM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_global_grp
+      parentName: Max_Maxter_FINAL_OK:controls_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1830494, y: 1.0817895, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_global_ctl
+      parentName: Max_Maxter_FINAL_OK:M_global_grp
+      position: {x: -1.8651746e-18, y: -6.2172487e-19, z: 5.0717245e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_root_grp
+      parentName: Max_Maxter_FINAL_OK:M_global_ctl
+      position: {x: -0, y: 0.0048896815, z: 0.00011198806}
+      rotation: {x: 0.010235296, y: -0.70703274, z: -0.010235296, w: 0.70703274}
+      scale: {x: 0.99992865, y: 0.92446023, z: 0.8452732}
+    - name: Max_Maxter_FINAL_OK:M_root_ctl
+      parentName: Max_Maxter_FINAL_OK:M_root_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_hip_grp
+      parentName: Max_Maxter_FINAL_OK:M_root_ctl
+      position: {x: 1.7486011e-19, y: -6.2172487e-19, z: -1.2434497e-18}
+      rotation: {x: 0.6409971, y: 0.7675434, z: 2.9811803e-15, w: -3.6652547e-15}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_hip_ctl
+      parentName: Max_Maxter_FINAL_OK:M_hip_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tailBase_grp
+      parentName: Max_Maxter_FINAL_OK:M_hip_ctl
+      position: {x: -0.001487804, y: -0.0014021385, z: -2.1396294e-18}
+      rotation: {x: 0.69990593, y: 0.71423507, z: 7.7617425e-16, w: -8.7955134e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tailBase_ctl
+      parentName: Max_Maxter_FINAL_OK:M_tailBase_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_00_grp
+      parentName: Max_Maxter_FINAL_OK:M_tailBase_ctl
+      position: {x: -0.0010730918, y: 6.2172487e-19, z: -2.0232267e-19}
+      rotation: {x: 0, y: -0, z: -0.028292893, w: 0.9995997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_00_ctl
+      parentName: Max_Maxter_FINAL_OK:M_tail_00_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_01_grp
+      parentName: Max_Maxter_FINAL_OK:M_tail_00_ctl
+      position: {x: -0.0008831391, y: 0, z: 9.389361e-20}
+      rotation: {x: 0, y: -0, z: -0.004791251, w: 0.99998856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_01_ctl
+      parentName: Max_Maxter_FINAL_OK:M_tail_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_02_grp
+      parentName: Max_Maxter_FINAL_OK:M_tail_01_ctl
+      position: {x: -0.0007751439, y: -6.2172487e-19, z: 2.4876932e-19}
+      rotation: {x: 0, y: -0, z: -0.032164667, w: 0.99948263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_02_ctl
+      parentName: Max_Maxter_FINAL_OK:M_tail_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_03_grp
+      parentName: Max_Maxter_FINAL_OK:M_tail_02_ctl
+      position: {x: -0.0009981919, y: 6.2172487e-19, z: -2.9059982e-19}
+      rotation: {x: 0, y: -0, z: -0.011962646, w: 0.9999285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_03_ctl
+      parentName: Max_Maxter_FINAL_OK:M_tail_03_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_04_grp
+      parentName: Max_Maxter_FINAL_OK:M_tail_03_ctl
+      position: {x: -0.00073145115, y: -6.2172487e-19, z: 1.7533108e-19}
+      rotation: {x: 0, y: 0, z: 0.009428594, w: 0.9999556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_04_ctl
+      parentName: Max_Maxter_FINAL_OK:M_tail_04_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_05_grp
+      parentName: Max_Maxter_FINAL_OK:M_tail_04_ctl
+      position: {x: -0.0007477862, y: -1.2434497e-18, z: 2.7620446e-20}
+      rotation: {x: 0, y: 0, z: 0.0009241227, w: 0.9999996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_tail_05_ctl
+      parentName: Max_Maxter_FINAL_OK:M_tail_05_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_legFK_controls_grp
+      parentName: Max_Maxter_FINAL_OK:M_hip_ctl
+      position: {x: -0.005215368, y: -0.00089017587, z: -1.2642122e-16}
+      rotation: {x: -0.46169594, y: -0.5355716, z: -0.46169594, w: 0.5355716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_legFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_legFK_controls_grp
+      position: {x: -0.0011116093, y: 0.0041387416, z: -0.00014166621}
+      rotation: {x: 0.40832335, y: 0.5772972, z: 0.40832335, w: 0.5772972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_legFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_legFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_kneeFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_legFK_ctl
+      position: {x: -0.0017697851, y: 0, z: 7.771561e-19}
+      rotation: {x: 0, y: 0, z: 0.37000763, w: 0.9290287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_knee_ctl
+      parentName: Max_Maxter_FINAL_OK:L_kneeFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_footFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_knee_ctl
+      position: {x: -0.0023757808, y: -1.1657342e-18, z: -1.5543122e-19}
+      rotation: {x: 0, y: 0, z: -0.7993348, w: 0.600886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_footFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_footFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_toeFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_footFK_ctl
+      position: {x: -0.0019153222, y: -1.9428902e-19, z: -1.0880186e-18}
+      rotation: {x: 0, y: -0, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_toeFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_toeFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_legFK_controls_grp
+      parentName: Max_Maxter_FINAL_OK:M_hip_ctl
+      position: {x: -0.005215368, y: -0.00089017587, z: -1.2642122e-16}
+      rotation: {x: 0.46169594, y: 0.5355716, z: -0.46169594, w: 0.5355716}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Max_Maxter_FINAL_OK:R_legFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_legFK_controls_grp
+      position: {x: -0.0011116093, y: 0.0041387416, z: -0.00014166621}
+      rotation: {x: 0.40832335, y: 0.5772972, z: 0.40832335, w: 0.5772972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_legFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_legFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_kneeFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_legFK_ctl
+      position: {x: -0.0017697851, y: -3.1086244e-19, z: 1.0880186e-18}
+      rotation: {x: 0, y: 0, z: 0.37000763, w: 0.9290287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_knee_ctl
+      parentName: Max_Maxter_FINAL_OK:R_kneeFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_footFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_knee_ctl
+      position: {x: -0.0023757808, y: -8.548717e-19, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7993348, w: 0.600886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_footFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_footFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_toeFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_footFK_ctl
+      position: {x: -0.0019153222, y: -1.9428902e-19, z: -1.0880186e-18}
+      rotation: {x: 0, y: -0, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_toeFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_toeFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spineBase_grp
+      parentName: Max_Maxter_FINAL_OK:M_root_ctl
+      position: {x: -0.0004268052, y: 0, z: 0}
+      rotation: {x: -0.6387393, y: 0.76942325, z: 5.596524e-16, w: -4.6459736e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spineBase_ctl
+      parentName: Max_Maxter_FINAL_OK:M_spineBase_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_00_grp
+      parentName: Max_Maxter_FINAL_OK:M_spineBase_ctl
+      position: {x: -0.0013403516, y: 0, z: -1.5543122e-19}
+      rotation: {x: 0, y: -0, z: -0.09681217, w: 0.9953027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_00_ctl
+      parentName: Max_Maxter_FINAL_OK:M_spine_00_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_01_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_00_ctl
+      position: {x: -0.001284124, y: 0, z: -3.1086244e-19}
+      rotation: {x: -0.000000010524951, y: 4.9771753e-10, z: -0.047236513, w: 0.9988837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_01_ctl
+      parentName: Max_Maxter_FINAL_OK:M_spine_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_02_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_01_ctl
+      position: {x: -0.0014028361, y: 0, z: 3.8857804e-19}
+      rotation: {x: 0, y: -0, z: -0.0412166, w: 0.9991503}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_02_ctl
+      parentName: Max_Maxter_FINAL_OK:M_spine_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_03_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_02_ctl
+      position: {x: -0.0008905145, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.060688086, w: 0.9981568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_03_ctl
+      parentName: Max_Maxter_FINAL_OK:M_spine_03_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_04_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_03_ctl
+      position: {x: -0.0008731721, y: 0, z: 2.3314683e-19}
+      rotation: {x: 0, y: -0, z: -0.06428214, w: 0.9979318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_04_ctl
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_head_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_ctl
+      position: {x: -0.001075345, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.073208675, w: 0.99731666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_head_ctl
+      parentName: Max_Maxter_FINAL_OK:M_head_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_jaw_grp
+      parentName: Max_Maxter_FINAL_OK:M_head_ctl
+      position: {x: -0.0010294281, y: -0.00040803838, z: 0}
+      rotation: {x: -0.0000000061466947, y: -0.00000001548464, z: 0.9294496, w: 0.36894906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_jaw_ctl
+      parentName: Max_Maxter_FINAL_OK:M_jaw_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ears_controls_grp
+      parentName: Max_Maxter_FINAL_OK:M_head_ctl
+      position: {x: 0.012114225, y: -0.0002544536, z: 4.172325e-11}
+      rotation: {x: 0.5037732, y: -0.4961981, z: 0.5037732, w: 0.49619812}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ear_grp
+      parentName: Max_Maxter_FINAL_OK:L_ears_controls_grp
+      position: {x: -0.0009299161, y: 0.013985974, z: -0.0008441493}
+      rotation: {x: -0.44400442, y: 0.056279697, z: -0.55032724, w: 0.70486355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ear_ctl
+      parentName: Max_Maxter_FINAL_OK:L_ear_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ears_controls_grp
+      parentName: Max_Maxter_FINAL_OK:M_head_ctl
+      position: {x: 0.012114225, y: -0.0002544536, z: 4.172325e-11}
+      rotation: {x: 0.5037732, y: -0.4961981, z: -0.5037732, w: -0.49619812}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Max_Maxter_FINAL_OK:R_ear_grp
+      parentName: Max_Maxter_FINAL_OK:R_ears_controls_grp
+      position: {x: -0.0009299161, y: 0.013985974, z: -0.0008441493}
+      rotation: {x: -0.44400442, y: 0.056279697, z: -0.55032724, w: 0.70486355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ear_ctl
+      parentName: Max_Maxter_FINAL_OK:R_ear_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_armFK_controls_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_ctl
+      position: {x: 0.010946183, y: 0.0015172471, z: 0}
+      rotation: {x: 0.53874743, y: -0.45798606, z: 0.53874743, w: 0.45798606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_clavicleFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_armFK_controls_grp
+      position: {x: -0.00041657375, y: 0.0112874955, z: -0.000069437425}
+      rotation: {x: 0.035077624, y: -0.2308634, z: -0.14606403, w: 0.96132046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_clavicleFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_clavicleFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_shoulderFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_clavicleFK_ctl
+      position: {x: -0.0008460164, y: 1.7408297e-17, z: -2.7977618e-18}
+      rotation: {x: -0.026458122, y: 0.16592832, z: 0.1409276, w: 0.9756573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_shoulderFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_shoulderFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_elbowFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_shoulderFK_ctl
+      position: {x: -0.0023068325, y: -4.973799e-18, z: 1.0103029e-18}
+      rotation: {x: -0.0009487701, y: 0.12932505, z: 0.0072745136, w: 0.9915751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_elbowFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_elbowFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wristFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_elbowFK_ctl
+      position: {x: -0.002353516, y: -7.4606985e-18, z: 9.325873e-19}
+      rotation: {x: 0.005682115, y: -0.06252911, z: -0.09032007, w: 0.99393165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wristFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_wristFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_fingersFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_wristFK_ctl
+      position: {x: 0.007748975, y: -0.010345297, z: 0.0004488661}
+      rotation: {x: 0, y: 0, z: 0.09049864, w: 0.99589664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbBaseFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_fingersFK_grp
+      position: {x: -0.0062749335, y: 0.011399146, z: -0.000034381363}
+      rotation: {x: 0.5675449, y: 0.24040104, z: 0.066895194, w: 0.7846179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbBaseFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_thumbBaseFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbFK_01_grp
+      parentName: Max_Maxter_FINAL_OK:L_thumbBaseFK_ctl
+      position: {x: -0.0005822965, y: 0.00012466124, z: 6.963319e-17}
+      rotation: {x: -0.042159308, y: -0.08088386, z: 0.03373939, w: 0.9952598}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbFK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:L_thumbFK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexBaseFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_fingersFK_grp
+      position: {x: -0.0068460666, y: 0.011878306, z: -0.00013258214}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexBaseFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_indexBaseFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexFK_01_grp
+      parentName: Max_Maxter_FINAL_OK:L_indexBaseFK_ctl
+      position: {x: -0.0006350042, y: -0.000019245412, z: 0.0000015573693}
+      rotation: {x: 0.03537628, y: 0.011581416, z: 0.029920526, w: 0.9988589}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexFK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:L_indexFK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexFK_02_grp
+      parentName: Max_Maxter_FINAL_OK:L_indexFK_01_ctl
+      position: {x: -0.00042209335, y: 3.4816594e-17, z: -2.1760372e-18}
+      rotation: {x: -0.002158805, y: -0.028456463, z: 0.003764778, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexFK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:L_indexFK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleBaseFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_fingersFK_grp
+      position: {x: -0.0068371138, y: 0.0118852295, z: -0.0004546507}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleBaseFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_middleBaseFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleFK_01_grp
+      parentName: Max_Maxter_FINAL_OK:L_middleBaseFK_ctl
+      position: {x: -0.0006474125, y: -0.00001606428, z: 0.000004602948}
+      rotation: {x: 0.01733969, y: -0.0071876943, z: 0.0028021683, w: 0.99981993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleFK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:L_middleFK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleFK_02_grp
+      parentName: Max_Maxter_FINAL_OK:L_middleFK_01_ctl
+      position: {x: -0.0004915608, y: 3.4816594e-17, z: -1.8651746e-18}
+      rotation: {x: -0.0004401506, y: -0.00887931, z: 0.030876404, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleFK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:L_middleFK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringBaseFK_grp
+      parentName: Max_Maxter_FINAL_OK:L_fingersFK_grp
+      position: {x: -0.00683492, y: 0.011877715, z: -0.00078841764}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringBaseFK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_ringBaseFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringFK_01_grp
+      parentName: Max_Maxter_FINAL_OK:L_ringBaseFK_ctl
+      position: {x: -0.0005573336, y: 1.24344974e-17, z: 1.0880186e-18}
+      rotation: {x: -0.00045686125, y: -0.012188898, z: 0.027480444, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringFK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:L_ringFK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringFK_02_grp
+      parentName: Max_Maxter_FINAL_OK:L_ringFK_01_ctl
+      position: {x: -0.0004829661, y: -3.2329692e-17, z: -2.7200463e-18}
+      rotation: {x: 0.000010253602, y: -0.00014490634, z: 0.007979559, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringFK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:L_ringFK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_armFK_controls_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_ctl
+      position: {x: 0.010946183, y: 0.0015172471, z: 0}
+      rotation: {x: 0.53874743, y: -0.45798606, z: -0.53874743, w: -0.45798606}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Max_Maxter_FINAL_OK:R_clavicleFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_armFK_controls_grp
+      position: {x: -0.00041657375, y: 0.0112874955, z: -0.000069437425}
+      rotation: {x: 0.035077624, y: -0.2308634, z: -0.14606403, w: 0.96132046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_clavicleFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_clavicleFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_shoulderFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_clavicleFK_ctl
+      position: {x: -0.0008460164, y: 1.7408297e-17, z: -2.7977618e-18}
+      rotation: {x: -0.026458122, y: 0.16592832, z: 0.1409276, w: 0.9756573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_shoulderFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_shoulderFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_elbowFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_shoulderFK_ctl
+      position: {x: -0.0023068325, y: -4.973799e-18, z: 1.0103029e-18}
+      rotation: {x: -0.0009487701, y: 0.12932505, z: 0.0072745136, w: 0.9915751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_elbowFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_elbowFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_wristFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_elbowFK_ctl
+      position: {x: -0.002353516, y: -7.4606985e-18, z: 9.325873e-19}
+      rotation: {x: 0.005682115, y: -0.06252911, z: -0.09032007, w: 0.99393165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_wristFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_wristFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_fingersFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_wristFK_ctl
+      position: {x: 0.007748975, y: -0.010345297, z: 0.0004488661}
+      rotation: {x: 0, y: 0, z: 0.09049864, w: 0.99589664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbBaseFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_fingersFK_grp
+      position: {x: -0.0062749335, y: 0.011399146, z: -0.000034381363}
+      rotation: {x: 0.5675449, y: 0.24040104, z: 0.066895194, w: 0.7846179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbBaseFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_thumbBaseFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbFK_01_grp
+      parentName: Max_Maxter_FINAL_OK:R_thumbBaseFK_ctl
+      position: {x: -0.0005822965, y: 0.00012466124, z: 6.963319e-17}
+      rotation: {x: -0.042159308, y: -0.08088386, z: 0.03373939, w: 0.9952598}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbFK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:R_thumbFK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexBaseFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_fingersFK_grp
+      position: {x: -0.0068460666, y: 0.011878306, z: -0.00013258214}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexBaseFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_indexBaseFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexFK_01_grp
+      parentName: Max_Maxter_FINAL_OK:R_indexBaseFK_ctl
+      position: {x: -0.0006350042, y: -0.000019245412, z: 0.0000015573693}
+      rotation: {x: 0.03537628, y: 0.011581416, z: 0.029920526, w: 0.9988589}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexFK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:R_indexFK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexFK_02_grp
+      parentName: Max_Maxter_FINAL_OK:R_indexFK_01_ctl
+      position: {x: -0.00042209335, y: 3.4816594e-17, z: -2.1760372e-18}
+      rotation: {x: -0.002158805, y: -0.028456463, z: 0.003764778, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexFK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:R_indexFK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleBaseFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_fingersFK_grp
+      position: {x: -0.0068371138, y: 0.0118852295, z: -0.0004546507}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleBaseFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_middleBaseFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleFK_01_grp
+      parentName: Max_Maxter_FINAL_OK:R_middleBaseFK_ctl
+      position: {x: -0.0006474125, y: -0.00001606428, z: 0.000004602948}
+      rotation: {x: 0.01733969, y: -0.0071876943, z: 0.0028021683, w: 0.99981993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleFK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:R_middleFK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleFK_02_grp
+      parentName: Max_Maxter_FINAL_OK:R_middleFK_01_ctl
+      position: {x: -0.0004915608, y: 3.4816594e-17, z: -1.8651746e-18}
+      rotation: {x: -0.0004401506, y: -0.00887931, z: 0.030876404, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleFK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:R_middleFK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringBaseFK_grp
+      parentName: Max_Maxter_FINAL_OK:R_fingersFK_grp
+      position: {x: -0.00683492, y: 0.011877715, z: -0.00078841764}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringBaseFK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_ringBaseFK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringFK_01_grp
+      parentName: Max_Maxter_FINAL_OK:R_ringBaseFK_ctl
+      position: {x: -0.0005573336, y: 1.24344974e-17, z: 1.0880186e-18}
+      rotation: {x: -0.00045686125, y: -0.012188898, z: 0.027480444, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringFK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:R_ringFK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringFK_02_grp
+      parentName: Max_Maxter_FINAL_OK:R_ringFK_01_ctl
+      position: {x: -0.0004829661, y: -3.2329692e-17, z: -2.7200463e-18}
+      rotation: {x: 0.000010253602, y: -0.00014490634, z: 0.007979559, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringFK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:R_ringFK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_armIK_controls_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_ctl
+      position: {x: 0.010946183, y: 0.0015172471, z: 0}
+      rotation: {x: 0.53874743, y: -0.45798606, z: 0.53874743, w: 0.45798606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_clavicleIK_grp
+      parentName: Max_Maxter_FINAL_OK:L_armIK_controls_grp
+      position: {x: -0.00041657375, y: 0.0112874955, z: -0.000069437425}
+      rotation: {x: 0.035077624, y: -0.2308634, z: -0.14606403, w: 0.96132046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_clavicleIK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_clavicleIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_arm_PV_grp
+      parentName: Max_Maxter_FINAL_OK:L_armIK_controls_grp
+      position: {x: -0.0036817947, y: 0.011572629, z: -0.002798063}
+      rotation: {x: 0, y: 0.06278675, z: -0, w: 0.99802697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_arm_PV_ctl
+      parentName: Max_Maxter_FINAL_OK:L_arm_PV_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_armPV_loc
+      parentName: Max_Maxter_FINAL_OK:L_armIK_controls_grp
+      position: {x: -0.0036817947, y: 0.011572629, z: -0.002798063}
+      rotation: {x: 0, y: 0.06278675, z: -0, w: 0.99802697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_armIK_controls_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_ctl
+      position: {x: 0.010946183, y: 0.0015172471, z: 0}
+      rotation: {x: 0.53874743, y: -0.45798606, z: -0.53874743, w: -0.45798606}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Max_Maxter_FINAL_OK:R_clavicleIK_grp
+      parentName: Max_Maxter_FINAL_OK:R_armIK_controls_grp
+      position: {x: -0.00041657375, y: 0.0112874955, z: -0.000069437425}
+      rotation: {x: 0.035077624, y: -0.2308634, z: -0.14606403, w: 0.96132046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_clavicleIK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_clavicleIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_arm_PV_grp
+      parentName: Max_Maxter_FINAL_OK:R_armIK_controls_grp
+      position: {x: -0.0036817947, y: 0.011572629, z: -0.002798063}
+      rotation: {x: 0, y: 0.06278675, z: -0, w: 0.99802697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_arm_PV_ctl
+      parentName: Max_Maxter_FINAL_OK:R_arm_PV_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_armPV_loc
+      parentName: Max_Maxter_FINAL_OK:R_armIK_controls_grp
+      position: {x: -0.0036817947, y: 0.011572629, z: -0.002798063}
+      rotation: {x: 0, y: 0.06278675, z: -0, w: 0.99802697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:boomerang_controls_grp
+      parentName: Max_Maxter_FINAL_OK:M_spine_04_ctl
+      position: {x: 0.010946183, y: 0.0015172471, z: 0}
+      rotation: {x: 0.771952, y: -0.63568085, z: 6.910533e-10, w: -8.3919466e-10}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:boomerang_grp
+      parentName: Max_Maxter_FINAL_OK:boomerang_controls_grp
+      position: {x: -0.0011573628, y: 0.0100157, z: -0.00013174834}
+      rotation: {x: -0.011071842, y: 0.7070201, z: 0.011071842, w: 0.7070201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:boomerang_ctl
+      parentName: Max_Maxter_FINAL_OK:boomerang_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:ikControls_grp
+      parentName: Max_Maxter_FINAL_OK:M_global_ctl
+      position: {x: -0, y: 0, z: -1.9630997e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8452732, y: 0.92439425, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wristIK_grp
+      parentName: Max_Maxter_FINAL_OK:ikControls_grp
+      position: {x: -0.005757259, y: 0.011572629, z: -0.000448866}
+      rotation: {x: 0, y: -0, z: -0.09049865, w: 0.99589664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wristIK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_wristIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_fingersIK_grp
+      parentName: Max_Maxter_FINAL_OK:L_wristIK_ctl
+      position: {x: 0.007748975, y: -0.010345297, z: 0.0004488661}
+      rotation: {x: 0, y: 0, z: 0.09049864, w: 0.99589664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbBaseIK_grp
+      parentName: Max_Maxter_FINAL_OK:L_fingersIK_grp
+      position: {x: -0.0062749335, y: 0.011399146, z: -0.000034381363}
+      rotation: {x: 0.5675449, y: 0.24040104, z: 0.066895194, w: 0.7846179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbBaseIK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_thumbBaseIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.10525562, w: 0.9944452}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbIK_01_grp
+      parentName: Max_Maxter_FINAL_OK:L_thumbBaseIK_ctl
+      position: {x: -0.0005822965, y: 0.00012466124, z: 6.963319e-17}
+      rotation: {x: -0.042159308, y: -0.08088386, z: 0.03373939, w: 0.9952598}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbIK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:L_thumbIK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexBaseIK_grp
+      parentName: Max_Maxter_FINAL_OK:L_fingersIK_grp
+      position: {x: -0.0068460666, y: 0.011878306, z: -0.00013258214}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexBaseIK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_indexBaseIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexIK_01_grp
+      parentName: Max_Maxter_FINAL_OK:L_indexBaseIK_ctl
+      position: {x: -0.0006350042, y: -0.000019245412, z: 0.0000015573693}
+      rotation: {x: 0.03537628, y: 0.011581416, z: 0.029920526, w: 0.9988589}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexIK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:L_indexIK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexIK_02_grp
+      parentName: Max_Maxter_FINAL_OK:L_indexIK_01_ctl
+      position: {x: -0.00042209335, y: 3.4816594e-17, z: -2.1760372e-18}
+      rotation: {x: -0.002158805, y: -0.028456463, z: 0.003764778, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexIK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:L_indexIK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleBaseIK_grp
+      parentName: Max_Maxter_FINAL_OK:L_fingersIK_grp
+      position: {x: -0.0068371138, y: 0.0118852295, z: -0.0004546507}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleBaseIK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_middleBaseIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleIK_01_grp
+      parentName: Max_Maxter_FINAL_OK:L_middleBaseIK_ctl
+      position: {x: -0.0006474125, y: -0.00001606428, z: 0.000004602948}
+      rotation: {x: 0.01733969, y: -0.0071876943, z: 0.0028021683, w: 0.99981993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleIK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:L_middleIK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleIK_02_grp
+      parentName: Max_Maxter_FINAL_OK:L_middleIK_01_ctl
+      position: {x: -0.0004915608, y: 3.4816594e-17, z: -1.8651746e-18}
+      rotation: {x: -0.0004401506, y: -0.00887931, z: 0.030876404, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleIK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:L_middleIK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringBaseIK_grp
+      parentName: Max_Maxter_FINAL_OK:L_fingersIK_grp
+      position: {x: -0.00683492, y: 0.011877715, z: -0.00078841764}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringBaseIK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_ringBaseIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringIK_01_grp
+      parentName: Max_Maxter_FINAL_OK:L_ringBaseIK_ctl
+      position: {x: -0.0005573336, y: 1.24344974e-17, z: 1.0880186e-18}
+      rotation: {x: -0.00045686125, y: -0.012188898, z: 0.027480444, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringIK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:L_ringIK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringIK_02_grp
+      parentName: Max_Maxter_FINAL_OK:L_ringIK_01_ctl
+      position: {x: -0.0004829661, y: -3.2329692e-17, z: -2.7200463e-18}
+      rotation: {x: 0.000010253602, y: -0.00014490634, z: 0.007979559, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringIK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:L_ringIK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_handEnd_ikh
+      parentName: Max_Maxter_FINAL_OK:L_wristIK_ctl
+      position: {x: -0.00087473844, y: 3.7303492e-18, z: -1.6320278e-18}
+      rotation: {x: 0, y: 0, z: 0.09049864, w: 0.99589664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_wristIK_grp
+      parentName: Max_Maxter_FINAL_OK:ikControls_grp
+      position: {x: 0.005757259, y: 0.011572629, z: -0.00044886622}
+      rotation: {x: -0.09049865, y: 0.99589664, z: 0.0000000011046031, w: -0.000000012155658}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Max_Maxter_FINAL_OK:R_wristIK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_wristIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_fingersIK_grp
+      parentName: Max_Maxter_FINAL_OK:R_wristIK_ctl
+      position: {x: 0.007748975, y: -0.010345297, z: 0.0004488661}
+      rotation: {x: 0, y: 0, z: 0.09049864, w: 0.99589664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbBaseIK_grp
+      parentName: Max_Maxter_FINAL_OK:R_fingersIK_grp
+      position: {x: -0.0062749335, y: 0.011399146, z: -0.000034381363}
+      rotation: {x: 0.5675449, y: 0.24040104, z: 0.066895194, w: 0.7846179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbBaseIK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_thumbBaseIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.10525562, w: 0.9944452}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbIK_01_grp
+      parentName: Max_Maxter_FINAL_OK:R_thumbBaseIK_ctl
+      position: {x: -0.0005822965, y: 0.00012466124, z: 6.963319e-17}
+      rotation: {x: -0.042159308, y: -0.08088386, z: 0.03373939, w: 0.9952598}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbIK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:R_thumbIK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexBaseIK_grp
+      parentName: Max_Maxter_FINAL_OK:R_fingersIK_grp
+      position: {x: -0.0068460666, y: 0.011878306, z: -0.00013258214}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexBaseIK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_indexBaseIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexIK_01_grp
+      parentName: Max_Maxter_FINAL_OK:R_indexBaseIK_ctl
+      position: {x: -0.0006350042, y: -0.000019245412, z: 0.0000015573693}
+      rotation: {x: 0.03537628, y: 0.011581416, z: 0.029920526, w: 0.9988589}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexIK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:R_indexIK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexIK_02_grp
+      parentName: Max_Maxter_FINAL_OK:R_indexIK_01_ctl
+      position: {x: -0.00042209335, y: 3.4816594e-17, z: -2.1760372e-18}
+      rotation: {x: -0.002158805, y: -0.028456463, z: 0.003764778, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexIK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:R_indexIK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleBaseIK_grp
+      parentName: Max_Maxter_FINAL_OK:R_fingersIK_grp
+      position: {x: -0.0068371138, y: 0.0118852295, z: -0.0004546507}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleBaseIK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_middleBaseIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleIK_01_grp
+      parentName: Max_Maxter_FINAL_OK:R_middleBaseIK_ctl
+      position: {x: -0.0006474125, y: -0.00001606428, z: 0.000004602948}
+      rotation: {x: 0.01733969, y: -0.0071876943, z: 0.0028021683, w: 0.99981993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleIK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:R_middleIK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleIK_02_grp
+      parentName: Max_Maxter_FINAL_OK:R_middleIK_01_ctl
+      position: {x: -0.0004915608, y: 3.4816594e-17, z: -1.8651746e-18}
+      rotation: {x: -0.0004401506, y: -0.00887931, z: 0.030876404, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleIK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:R_middleIK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringBaseIK_grp
+      parentName: Max_Maxter_FINAL_OK:R_fingersIK_grp
+      position: {x: -0.00683492, y: 0.011877715, z: -0.00078841764}
+      rotation: {x: -0.017418506, y: 0.005095592, z: 0.0064861686, w: 0.9998143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringBaseIK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_ringBaseIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringIK_01_grp
+      parentName: Max_Maxter_FINAL_OK:R_ringBaseIK_ctl
+      position: {x: -0.0005573336, y: 1.24344974e-17, z: 1.0880186e-18}
+      rotation: {x: -0.00045686125, y: -0.012188898, z: 0.027480444, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringIK_01_ctl
+      parentName: Max_Maxter_FINAL_OK:R_ringIK_01_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringIK_02_grp
+      parentName: Max_Maxter_FINAL_OK:R_ringIK_01_ctl
+      position: {x: -0.0004829661, y: -3.2329692e-17, z: -2.7200463e-18}
+      rotation: {x: 0.000010253602, y: -0.00014490634, z: 0.007979559, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringIK_02_ctl
+      parentName: Max_Maxter_FINAL_OK:R_ringIK_02_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:ikHandle1
+      parentName: Max_Maxter_FINAL_OK:R_wristIK_ctl
+      position: {x: -0.00087473815, y: 0.000000015269515, z: 2.1718861e-10}
+      rotation: {x: -0.09049864, y: 0.99589664, z: -6.0981085e-17, w: 5.5414434e-18}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Max_Maxter_FINAL_OK:L_legIK_controls_grp
+      parentName: Max_Maxter_FINAL_OK:ikControls_grp
+      position: {x: 2.4868995e-18, y: -6.9025327e-35, z: -3.1086244e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_legIK_grp
+      parentName: Max_Maxter_FINAL_OK:L_legIK_controls_grp
+      position: {x: -0.0011116093, y: 0.0002992279, z: -0.00051757426}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_legIK_ctl
+      parentName: Max_Maxter_FINAL_OK:L_legIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_leg_PV_loc
+      parentName: Max_Maxter_FINAL_OK:L_legIK_controls_grp
+      position: {x: -0.0011116093, y: 0.0020952097, z: 0.0035095895}
+      rotation: {x: 0.5929485, y: 0.3852429, z: 0.5929485, w: 0.3852429}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_leg_PV_grp
+      parentName: Max_Maxter_FINAL_OK:L_legIK_controls_grp
+      position: {x: -0.0011116093, y: 0.0020952097, z: 0.0035095895}
+      rotation: {x: 0.5929485, y: 0.3852429, z: 0.5929485, w: 0.3852429}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_leg_PV_ctl
+      parentName: Max_Maxter_FINAL_OK:L_leg_PV_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_legIK_controls_grp
+      parentName: Max_Maxter_FINAL_OK:ikControls_grp
+      position: {x: 2.4868995e-18, y: -6.9025327e-35, z: -3.1086244e-19}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Max_Maxter_FINAL_OK:R_legIK_grp
+      parentName: Max_Maxter_FINAL_OK:R_legIK_controls_grp
+      position: {x: -0.0011116093, y: 0.0002992279, z: -0.00051757426}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_legIK_ctl
+      parentName: Max_Maxter_FINAL_OK:R_legIK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_leg_PV_loc
+      parentName: Max_Maxter_FINAL_OK:R_legIK_controls_grp
+      position: {x: -0.0011116093, y: 0.0020952097, z: 0.0035095895}
+      rotation: {x: 0.5929485, y: 0.3852429, z: 0.5929485, w: 0.3852429}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_leg_PV_grp
+      parentName: Max_Maxter_FINAL_OK:R_legIK_controls_grp
+      position: {x: -0.0011116093, y: 0.0020952097, z: 0.0035095895}
+      rotation: {x: 0.5929485, y: 0.3852429, z: 0.5929485, w: 0.3852429}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_leg_PV_ctl
+      parentName: Max_Maxter_FINAL_OK:R_leg_PV_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:correctives_grp
+      parentName: T_Pose_MM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_head
+      parentName: Max_Maxter_FINAL_OK:correctives_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_neck_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:M_head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_jaw_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:M_head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_arm
+      parentName: Max_Maxter_FINAL_OK:correctives_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_shoulder_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_fingers
+      parentName: Max_Maxter_FINAL_OK:L_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbBase_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumb_01_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexBase_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_index_01_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_index_02_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleBase_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middle_01_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middle_02_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringBase_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ring_01_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ring_02_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_arm
+      parentName: Max_Maxter_FINAL_OK:correctives_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_shoulder_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_fingers
+      parentName: Max_Maxter_FINAL_OK:R_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbBase_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumb_01_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexBase_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_index_01_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_index_02_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleBase_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middle_01_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middle_02_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringBase_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ring_01_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ring_02_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_fingers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spines
+      parentName: Max_Maxter_FINAL_OK:correctives_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spineBase_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:M_spines
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_00_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:M_spines
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_01_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:M_spines
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_02_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:M_spines
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_03_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:M_spines
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:M_spine_04_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:M_spines
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_leg
+      parentName: Max_Maxter_FINAL_OK:correctives_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_leg_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_knee_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:L_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_leg
+      parentName: Max_Maxter_FINAL_OK:correctives_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_leg_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_knee_jnt_poseInterpolator
+      parentName: Max_Maxter_FINAL_OK:R_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:RIG_DO_NO_TOUCH
+      parentName: T_Pose_MM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:fkSetup
+      parentName: Max_Maxter_FINAL_OK:RIG_DO_NO_TOUCH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_FK_arm_grp
+      parentName: Max_Maxter_FINAL_OK:fkSetup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_clavicleFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_FK_arm_grp
+      position: {x: -0.0004165735, y: 0.0112874955, z: -0.00006943742}
+      rotation: {x: 0.03507762, y: -0.23086339, z: -0.14606404, w: 0.96132046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_shoulderFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_clavicleFK_jnt
+      position: {x: -0.0008460164, y: 1.6820295e-11, z: 1.1692456e-11}
+      rotation: {x: -0.026458126, y: 0.16592832, z: 0.14092758, w: 0.9756573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_elbowFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_shoulderFK_jnt
+      position: {x: -0.0023068325, y: 2.4868995e-18, z: 4.0555267e-11}
+      rotation: {x: -0.0009487701, y: 0.12932505, z: 0.007274513, w: 0.9915751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wristFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_elbowFK_jnt
+      position: {x: -0.002353516, y: 1.7959916e-12, z: 4.1483192e-11}
+      rotation: {x: 0.0056821126, y: -0.0625291, z: -0.09032007, w: 0.99393165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wristEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristFK_jnt
+      position: {x: -0.00087473844, y: 0, z: -7.771561e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringBaseFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristFK_jnt
+      position: {x: -0.001115001, y: 0.00010583458, z: -0.00033955154}
+      rotation: {x: -0.017808177, y: 0.0034983403, z: 0.096941374, w: 0.99512464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ring_01FK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ringBaseFK_jnt
+      position: {x: -0.0005573336, y: 9.947598e-18, z: 1.2434497e-18}
+      rotation: {x: -0.00045686236, y: -0.012188889, z: 0.027480444, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ring_02FK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ring_01FK_jnt
+      position: {x: -0.0004829661, y: -3.2329692e-17, z: -2.6811887e-18}
+      rotation: {x: 0.000010252805, y: -0.00014489745, z: 0.007979559, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ring_02FK_jnt
+      position: {x: -0.00033087187, y: 3.9790392e-17, z: 8.548717e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleBaseFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristFK_jnt
+      position: {x: -0.0011185135, y: 0.00011283068, z: -0.0000057846028}
+      rotation: {x: -0.0006610668, y: 0.009171421, z: 0.109068796, w: 0.9939917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middle_01FK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_middleBaseFK_jnt
+      position: {x: -0.00064762816, y: -2.4868995e-18, z: 5.440093e-19}
+      rotation: {x: -0.00031138686, y: -0.011121231, z: -0.009343869, w: 0.9998945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middle_02FK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_middle_01FK_jnt
+      position: {x: -0.0004915608, y: 2.9842794e-17, z: -1.787459e-18}
+      rotation: {x: -0.0004401516, y: -0.008879301, z: 0.030876404, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_middle_02FK_jnt
+      position: {x: -0.0004398636, y: -9.947598e-18, z: -2.2926105e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexBaseFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristFK_jnt
+      position: {x: -0.0011260717, y: 0.00010440713, z: 0.000316284}
+      rotation: {x: 0.0168615, y: 0.008898151, z: 0.11174029, w: 0.99355453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_index_01FK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_indexBaseFK_jnt
+      position: {x: -0.00063529774, y: -1.4921397e-17, z: 4.0412116e-18}
+      rotation: {x: 0.0005684202, y: 0.010332006, z: 0.014476963, w: 0.9998417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_index_02FK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_index_01FK_jnt
+      position: {x: -0.00042209335, y: 3.2329692e-17, z: -2.1760372e-18}
+      rotation: {x: -0.002158806, y: -0.028456453, z: 0.0037647774, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_index_02FK_jnt
+      position: {x: -0.00044875656, y: -3.2329692e-17, z: 1.5543122e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbBaseFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristFK_jnt
+      position: {x: -0.0004779232, y: -0.00026395454, z: 0.00041448473}
+      rotation: {x: 0.5098354, y: 0.34636363, z: 0.055253703, w: 0.7855235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumb_01FK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_thumbBaseFK_jnt
+      position: {x: -0.00059549115, y: -3.419487e-17, z: 6.963319e-17}
+      rotation: {x: -0.033411637, y: -0.08487206, z: 0.13830864, w: 0.98618007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_thumb_01FK_jnt
+      position: {x: -0.0005707558, y: 6.2172487e-19, z: -2.9842794e-17}
+      rotation: {x: -0.052335955, y: 0, z: -0, w: 0.9986295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_FK_arm_grp
+      parentName: Max_Maxter_FINAL_OK:fkSetup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_clavicleFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_FK_arm_grp
+      position: {x: 0.00041657328, y: 0.0112875, z: -0.00006943742}
+      rotation: {x: 0.9613204, y: 0.14606404, z: -0.2308634, w: -0.035077624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_shoulderFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_clavicleFK_jnt
+      position: {x: 0.0008460206, y: -0.000000011292795, z: -7.1352885e-10}
+      rotation: {x: -0.02645812, y: 0.16592832, z: 0.14092758, w: 0.9756573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_elbowFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_shoulderFK_jnt
+      position: {x: 0.002306831, y: 0.000000035452995, z: -0.0000000018409515}
+      rotation: {x: -0.0009487691, y: 0.12932505, z: 0.007274506, w: 0.9915751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_wristFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_elbowFK_jnt
+      position: {x: 0.0023535176, y: -3.4839062e-11, z: 0.000000002264903}
+      rotation: {x: 0.005682119, y: -0.06252911, z: -0.09032008, w: 0.99393165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_wristEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristFK_jnt
+      position: {x: 0.00087473943, y: -0.00000003478822, z: -7.771561e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringBaseFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristFK_jnt
+      position: {x: 0.001115006, y: -0.000105879386, z: 0.0003395511}
+      rotation: {x: -0.017808171, y: 0.003498332, z: 0.09694137, w: 0.99512464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ring_01FK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ringBaseFK_jnt
+      position: {x: 0.0005573669, y: 0.000000009853065, z: 0.0000000024598341}
+      rotation: {x: -0.00045685782, y: -0.0121888975, z: 0.027480436, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ring_02FK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ring_01FK_jnt
+      position: {x: 0.00048291133, y: 0.000000017146354, z: -4.9821036e-10}
+      rotation: {x: 0.000010256939, y: -0.00014490617, z: 0.00797955, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ring_02FK_jnt
+      position: {x: 0.00033090368, y: -0.000000011815501, z: 7.087115e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleBaseFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristFK_jnt
+      position: {x: 0.0011185181, y: -0.000112850495, z: 0.0000057847997}
+      rotation: {x: -0.0006610612, y: 0.009171412, z: 0.10906879, w: 0.9939917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middle_01FK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_middleBaseFK_jnt
+      position: {x: 0.00064763287, y: -0.000000024713028, z: 4.7945516e-11}
+      rotation: {x: -0.00031138214, y: -0.01112124, z: -0.0093438765, w: 0.9998945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middle_02FK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_middle_01FK_jnt
+      position: {x: 0.0004915592, y: 0.0000000042864516, z: 1.3243144e-10}
+      rotation: {x: -0.00044014724, y: -0.00887931, z: 0.030876394, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_middle_02FK_jnt
+      position: {x: 0.00043986543, y: 0.000000017551391, z: -7.876943e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexBaseFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristFK_jnt
+      position: {x: 0.0011260754, y: -0.00010442019, z: -0.00031628378}
+      rotation: {x: 0.016861508, y: 0.008898143, z: 0.11174029, w: 0.99355453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_index_01FK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_indexBaseFK_jnt
+      position: {x: 0.0006352684, y: 2.504586e-10, z: -1.901762e-10}
+      rotation: {x: 0.0005684248, y: 0.010331997, z: 0.014476956, w: 0.9998417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_index_02FK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_index_01FK_jnt
+      position: {x: 0.00042212254, y: 0.000000021195904, z: -1.073286e-11}
+      rotation: {x: -0.0021588015, y: -0.028456463, z: 0.0037647702, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_index_02FK_jnt
+      position: {x: 0.00044872286, y: -0.000000048998814, z: 0.0000000025662976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbBaseFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristFK_jnt
+      position: {x: 0.00047792456, y: 0.00026393126, z: -0.0004144846}
+      rotation: {x: 0.5098354, y: 0.34636363, z: 0.055253703, w: 0.7855235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumb_01FK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_thumbBaseFK_jnt
+      position: {x: 0.00059548137, y: -0.000000009289383, z: 0.000000023373124}
+      rotation: {x: -0.033411633, y: -0.08487207, z: 0.13830866, w: 0.98618007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_thumb_01FK_jnt
+      position: {x: 0.000570748, y: 0.000000022607828, z: -0.00000006554932}
+      rotation: {x: -0.052335955, y: 0, z: -0, w: 0.9986295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_FK_leg_grp
+      parentName: Max_Maxter_FINAL_OK:fkSetup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_legFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_FK_leg_grp
+      position: {x: -0.0011116093, y: 0.0041387416, z: -0.00014166621}
+      rotation: {x: 0.40832335, y: 0.5772972, z: 0.40832335, w: 0.5772972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_kneeFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_legFK_jnt
+      position: {x: -0.0017697851, y: -6.2172487e-19, z: -2.3625546e-17}
+      rotation: {x: 0, y: 0, z: 0.37000763, w: 0.9290287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_footFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_kneeFK_jnt
+      position: {x: -0.0023757808, y: -1.9428903e-18, z: -4.3676172e-17}
+      rotation: {x: 0, y: 0, z: -0.7993348, w: 0.600886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_toeFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_footFK_jnt
+      position: {x: -0.0019153222, y: -8.548717e-19, z: 5.4400927e-18}
+      rotation: {x: 0, y: -0, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_toeEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_toeFK_jnt
+      position: {x: -0.0010811185, y: 4.2743586e-19, z: 3.1086244e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_FK_leg_grp
+      parentName: Max_Maxter_FINAL_OK:fkSetup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_legFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_FK_leg_grp
+      position: {x: 0.001111607, y: 0.004138743, z: -0.00014166601}
+      rotation: {x: 0.5772972, y: -0.40832335, z: 0.5772972, w: -0.40832335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_kneeFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_legFK_jnt
+      position: {x: 0.0017697853, y: 3.5871035e-11, z: -9.450218e-17}
+      rotation: {x: 0, y: 0, z: 0.37000763, w: 0.9290287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_footFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_kneeFK_jnt
+      position: {x: 0.0023757825, y: -2.288716e-10, z: -1.199929e-16}
+      rotation: {x: 0, y: 0, z: -0.7993348, w: 0.600886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_toeFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_footFK_jnt
+      position: {x: 0.001915322, y: -2.691713e-10, z: -1.6942004e-17}
+      rotation: {x: 0, y: -0, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_toeEndFK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_toeFK_jnt
+      position: {x: 0.0010811201, y: 5.631443e-12, z: -1.7097434e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:ikSetup
+      parentName: Max_Maxter_FINAL_OK:RIG_DO_NO_TOUCH
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_IK_arm_grp
+      parentName: Max_Maxter_FINAL_OK:ikSetup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_clavicleIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_IK_arm_grp
+      position: {x: -0.0004165735, y: 0.0112874955, z: -0.00006943742}
+      rotation: {x: 0.03507762, y: -0.23086339, z: -0.14606404, w: 0.96132046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_shoulderIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_clavicleIK_jnt
+      position: {x: -0.0008460164, y: 1.6164846e-17, z: -2.409184e-18}
+      rotation: {x: -0.050175782, y: 0.16227639, z: 0.14822114, w: 0.97425836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_elbowIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_shoulderIK_jnt
+      position: {x: -0.0023068325, y: -4.973799e-18, z: 7.771561e-19}
+      rotation: {x: -0.0009487701, y: 0.12932505, z: 0.0072745136, w: 0.9915751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wristIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_elbowIK_jnt
+      position: {x: -0.002353516, y: -7.4606985e-18, z: 9.325873e-19}
+      rotation: {x: 0.0060626003, y: -0.05821222, z: -0.09011985, w: 0.99420977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_wristEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristIK_jnt
+      position: {x: -0.00087473844, y: 0, z: -7.771561e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringBaseIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristIK_jnt
+      position: {x: -0.001115001, y: 0.00010583458, z: -0.00033955154}
+      rotation: {x: -0.017808173, y: 0.003498273, z: 0.09694144, w: 0.99512464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ring_01IK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ringBaseIK_jnt
+      position: {x: -0.0005573336, y: 9.947598e-18, z: 1.2434497e-18}
+      rotation: {x: -0.0004568661, y: -0.0121888975, z: 0.027480444, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ring_02IK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ring_01IK_jnt
+      position: {x: -0.0004829661, y: -3.2329692e-17, z: -2.6811887e-18}
+      rotation: {x: 0.000010248731, y: -0.00014490604, z: 0.007979559, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ringEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ring_02IK_jnt
+      position: {x: -0.00033087187, y: 3.9790392e-17, z: 8.548717e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleBaseIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristIK_jnt
+      position: {x: -0.0011185135, y: 0.00011283068, z: -0.0000057846028}
+      rotation: {x: -0.0006610646, y: 0.009171355, z: 0.109068856, w: 0.9939917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middle_01IK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_middleBaseIK_jnt
+      position: {x: -0.00064762816, y: -2.4868995e-18, z: 5.440093e-19}
+      rotation: {x: -0.00031139245, y: -0.01112124, z: -0.009343869, w: 0.9998945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middle_02IK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_middle_01IK_jnt
+      position: {x: -0.0004915608, y: 2.9842794e-17, z: -1.787459e-18}
+      rotation: {x: -0.00044015737, y: -0.00887931, z: 0.030876404, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_middleEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_middle_02IK_jnt
+      position: {x: -0.0004398636, y: -9.947598e-18, z: -2.2926105e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexBaseIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristIK_jnt
+      position: {x: -0.0011260717, y: 0.00010440713, z: 0.000316284}
+      rotation: {x: 0.016861502, y: 0.008898086, z: 0.11174036, w: 0.99355453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_index_01IK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_indexBaseIK_jnt
+      position: {x: -0.00063529774, y: -1.4921397e-17, z: 4.0412116e-18}
+      rotation: {x: 0.00056841434, y: 0.010331998, z: 0.014476964, w: 0.9998417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_index_02IK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_index_01IK_jnt
+      position: {x: -0.00042209335, y: 3.2329692e-17, z: -2.1760372e-18}
+      rotation: {x: -0.0021588118, y: -0.028456463, z: 0.0037647781, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_indexEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_index_02IK_jnt
+      position: {x: -0.00044875656, y: -3.2329692e-17, z: 1.5543122e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbBaseIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_wristIK_jnt
+      position: {x: -0.0004779232, y: -0.00026395454, z: 0.00041448473}
+      rotation: {x: 0.5434601, y: 0.29077658, z: 0.13762763, w: 0.7753443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumb_01IK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_thumbBaseIK_jnt
+      position: {x: -0.00059549115, y: -3.419487e-17, z: 6.963319e-17}
+      rotation: {x: -0.033411637, y: -0.08487206, z: 0.13830866, w: 0.98618007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_thumbEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_thumb_01IK_jnt
+      position: {x: -0.0005707558, y: 6.2172487e-19, z: -2.9842794e-17}
+      rotation: {x: -0.052335955, y: 0, z: -0, w: 0.9986295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_arm_ikh
+      parentName: Max_Maxter_FINAL_OK:L_IK_arm_grp
+      position: {x: -0.005757259, y: 0.011572629, z: -0.000448866}
+      rotation: {x: 0, y: -0, z: -0.000000011157677, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_IK_arm_grp
+      parentName: Max_Maxter_FINAL_OK:ikSetup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_clavicleIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_IK_arm_grp
+      position: {x: 0.00041657328, y: 0.0112875, z: -0.00006943742}
+      rotation: {x: 0.9613204, y: 0.14606404, z: -0.2308634, w: -0.035077624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_shoulderIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_clavicleIK_jnt
+      position: {x: 0.0008460206, y: -0.000000011278262, z: -7.1352885e-10}
+      rotation: {x: -0.050147247, y: 0.16228065, z: 0.14821242, w: 0.97426045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_elbowIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_shoulderIK_jnt
+      position: {x: 0.002306831, y: 0.000000035491198, z: -0.0000000018400323}
+      rotation: {x: -0.0009487701, y: 0.12932505, z: 0.0072745136, w: 0.9915751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_wristIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_elbowIK_jnt
+      position: {x: 0.0023535176, y: 2.4868995e-18, z: 0.000000002265679}
+      rotation: {x: 0.030627523, y: -0.060426384, z: -0.0886541, w: 0.99375606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_wristEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristIK_jnt
+      position: {x: 0.00087473943, y: -0.00000003478822, z: -7.771561e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringBaseIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristIK_jnt
+      position: {x: 0.001115006, y: -0.000105879386, z: 0.0003395511}
+      rotation: {x: -0.017808175, y: 0.003498332, z: 0.09694141, w: 0.99512464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ring_01IK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ringBaseIK_jnt
+      position: {x: 0.0005573669, y: 0.000000009853065, z: 0.0000000024598341}
+      rotation: {x: -0.00045686212, y: -0.012188898, z: 0.027480444, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ring_02IK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ring_01IK_jnt
+      position: {x: 0.00048291133, y: 0.000000017146354, z: -4.9821036e-10}
+      rotation: {x: 0.000010252676, y: -0.00014490636, z: 0.007979559, w: 0.9999682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ringEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ring_02IK_jnt
+      position: {x: 0.00033090368, y: -0.000000011815501, z: 7.087115e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleBaseIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristIK_jnt
+      position: {x: 0.0011185181, y: -0.000112850495, z: 0.0000057847997}
+      rotation: {x: -0.00066106534, y: 0.0091714095, z: 0.10906884, w: 0.9939917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middle_01IK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_middleBaseIK_jnt
+      position: {x: 0.00064763287, y: -0.000000024713028, z: 4.7945516e-11}
+      rotation: {x: -0.00031138698, y: -0.01112124, z: -0.009343869, w: 0.9998945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middle_02IK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_middle_01IK_jnt
+      position: {x: 0.0004915592, y: 0.0000000042864516, z: 1.3243144e-10}
+      rotation: {x: -0.00044015204, y: -0.00887931, z: 0.030876404, w: 0.9994837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_middleEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_middle_02IK_jnt
+      position: {x: 0.00043986543, y: 0.000000017551391, z: -7.876943e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexBaseIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristIK_jnt
+      position: {x: 0.0011260754, y: -0.00010442019, z: -0.00031628378}
+      rotation: {x: 0.016861502, y: 0.008898141, z: 0.11174034, w: 0.99355453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_index_01IK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_indexBaseIK_jnt
+      position: {x: 0.0006352684, y: 2.504586e-10, z: -1.901762e-10}
+      rotation: {x: 0.00056842, y: 0.010331998, z: 0.014476964, w: 0.9998417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_index_02IK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_index_01IK_jnt
+      position: {x: 0.00042212254, y: 0.000000021195904, z: -1.073286e-11}
+      rotation: {x: -0.0021588062, y: -0.028456463, z: 0.003764778, w: 0.9995856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_indexEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_index_02IK_jnt
+      position: {x: 0.00044872286, y: -0.000000048998814, z: 0.0000000025662976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbBaseIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_wristIK_jnt
+      position: {x: 0.00047792456, y: 0.00026393126, z: -0.0004144846}
+      rotation: {x: 0.54346, y: 0.2907766, z: 0.13762757, w: 0.7753443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumb_01IK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_thumbBaseIK_jnt
+      position: {x: 0.00059548137, y: -0.000000009289383, z: 0.000000023373124}
+      rotation: {x: -0.033411626, y: -0.08487206, z: 0.13830866, w: 0.98618007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_thumbEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_thumb_01IK_jnt
+      position: {x: 0.000570748, y: 0.000000022607828, z: -0.00000006554932}
+      rotation: {x: -0.052335955, y: 0, z: -0, w: 0.9986295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_arm_ikh
+      parentName: Max_Maxter_FINAL_OK:R_IK_arm_grp
+      position: {x: 0.0057572615, y: 0.011572611, z: -0.00044886605}
+      rotation: {x: -6.632535e-17, y: 0.000000012205742, z: 0.000000009640852, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_IK_leg_grp
+      parentName: Max_Maxter_FINAL_OK:ikSetup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_legIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_IK_leg_grp
+      position: {x: -0.0011116093, y: 0.0041387416, z: -0.00014166621}
+      rotation: {x: 0.40832335, y: 0.5772972, z: 0.40832335, w: 0.5772972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_kneeIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_legIK_jnt
+      position: {x: -0.0017697851, y: 0, z: 9.325873e-19}
+      rotation: {x: -1.1113528e-28, y: 3.14763e-28, z: 0.37000763, w: 0.9290287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_footIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_kneeIK_jnt
+      position: {x: -0.0023757808, y: -9.325873e-19, z: -4.6629365e-19}
+      rotation: {x: -0.0000000037203436, y: 0.000000004949026, z: -0.7993348, w: 0.600886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_toeIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_footIK_jnt
+      position: {x: -0.0019153222, y: -2.7200464e-19, z: -9.325873e-19}
+      rotation: {x: 1.906321e-14, y: -1.1158265e-15, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_toeEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_toeIK_jnt
+      position: {x: -0.0010811185, y: 4.2743586e-19, z: 3.1086244e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_footBase_jnt
+      parentName: Max_Maxter_FINAL_OK:L_IK_leg_grp
+      position: {x: -0.0011116093, y: 0.0002992279, z: -0.00051757426}
+      rotation: {x: 0.0025148164, y: 0.7071042, z: 0.0019086623, w: 0.7071023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_heel_jnt
+      parentName: Max_Maxter_FINAL_OK:L_footBase_jnt
+      position: {x: 0.00021080987, y: -0.00026045478, z: 0.000004511088}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_inFoot_jnt
+      parentName: Max_Maxter_FINAL_OK:L_heel_jnt
+      position: {x: -0.0021131535, y: 0.00000025058918, z: 0.00029232234}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_outFoot_jnt
+      parentName: Max_Maxter_FINAL_OK:L_inFoot_jnt
+      position: {x: -0.00003854342, y: 0.0000113152055, z: -0.0005908199}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_tip_jnt
+      parentName: Max_Maxter_FINAL_OK:L_outFoot_jnt
+      position: {x: -0.0010391356, y: -0.000015387215, z: 0.00029421304}
+      rotation: {x: -0.006845422, y: 0.9999765, z: -0.00042860777, w: -0.00000293407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ball_jnt
+      parentName: Max_Maxter_FINAL_OK:L_tip_jnt
+      position: {x: -0.0010811185, y: -1.3843094e-19, z: -8.619424e-19}
+      rotation: {x: 0, y: -0, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ankle_jnt
+      parentName: Max_Maxter_FINAL_OK:L_ball_jnt
+      position: {x: -0.0019153222, y: 3.8857804e-20, z: 4.196643e-18}
+      rotation: {x: -0.048356358, y: 0.7054514, z: 0.048356358, w: 0.7054514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_leg_ikh
+      parentName: Max_Maxter_FINAL_OK:L_ball_jnt
+      position: {x: -0.0019153222, y: 6.132806e-12, z: 2.005413e-11}
+      rotation: {x: -0.048356358, y: 0.7054514, z: 0.048356358, w: 0.7054514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_foot_ikh
+      parentName: Max_Maxter_FINAL_OK:L_ball_jnt
+      position: {x: 1.8232846e-11, y: 1.7708127e-12, z: 2.1908078e-11}
+      rotation: {x: 0.00000000113871, y: 1, z: 0.000000006191449, w: 0.000000011996226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ballIK_jnt
+      parentName: Max_Maxter_FINAL_OK:L_tip_jnt
+      position: {x: -0.0010811185, y: -3.6843887e-13, z: 2.0054122e-11}
+      rotation: {x: 2.6314223e-10, y: 1, z: 1.1163462e-14, w: -7.2736614e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:L_ball_ikh
+      parentName: Max_Maxter_FINAL_OK:L_ballIK_jnt
+      position: {x: -0.0010811185, y: -5.689747e-13, z: -2.9177362e-11}
+      rotation: {x: 0, y: -0.000000012636639, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_IK_leg_grp
+      parentName: Max_Maxter_FINAL_OK:ikSetup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_legIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_IK_leg_grp
+      position: {x: 0.001111607, y: 0.004138743, z: -0.00014166601}
+      rotation: {x: 0.5772974, y: -0.40832347, z: 0.577297, w: -0.40832326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_kneeIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_legIK_jnt
+      position: {x: 0.0017697853, y: 3.5871032e-11, z: -3.1086244e-19}
+      rotation: {x: 3.9279696e-29, y: -5.4544406e-29, z: 0.37000763, w: 0.9290287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_footIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_kneeIK_jnt
+      position: {x: 0.0023757825, y: -2.288716e-10, z: 2.3314683e-18}
+      rotation: {x: 0.000000003933375, y: -0.0000000052324145, z: -0.7993348, w: 0.600886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_toeIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_footIK_jnt
+      position: {x: 0.001915322, y: -2.691713e-10, z: -2.9531932e-18}
+      rotation: {x: -0.000000023478448, y: 0.0000000013742634, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_toeEndIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_toeIK_jnt
+      position: {x: 0.0010811201, y: 5.631443e-12, z: -1.7097434e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_footBase_jnt
+      parentName: Max_Maxter_FINAL_OK:R_IK_leg_grp
+      position: {x: 0.001111607, y: 0.0002992276, z: -0.0005175744}
+      rotation: {x: 0.7071023, y: -0.0019086623, z: 0.7071042, w: -0.0025148164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_heel_jnt
+      parentName: Max_Maxter_FINAL_OK:R_footBase_jnt
+      position: {x: -0.00021080938, y: 0.0002604545, z: -0.0000045072725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_inFoot_jnt
+      parentName: Max_Maxter_FINAL_OK:R_heel_jnt
+      position: {x: 0.0021131523, y: -0.00000025057867, z: -0.00029232688}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_outFoot_jnt
+      parentName: Max_Maxter_FINAL_OK:R_inFoot_jnt
+      position: {x: 0.0000385458, y: -0.000011315202, z: 0.00059082394}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_tip_jnt
+      parentName: Max_Maxter_FINAL_OK:R_outFoot_jnt
+      position: {x: 0.0010391352, y: 0.000015387237, z: -0.0002942163}
+      rotation: {x: -0.006845422, y: 0.9999765, z: -0.00042860777, w: -0.00000293407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ball_jnt
+      parentName: Max_Maxter_FINAL_OK:R_tip_jnt
+      position: {x: 0.0010811201, y: -6.200414e-12, z: 1.0880186e-18}
+      rotation: {x: 0, y: -9.70889e-15, z: -0.058432974, w: 0.9982914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ankle_jnt
+      parentName: Max_Maxter_FINAL_OK:R_ball_jnt
+      position: {x: 0.001915322, y: 2.6480929e-10, z: 2.8910207e-17}
+      rotation: {x: -0.048356358, y: 0.7054514, z: 0.048356358, w: 0.7054514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_leg_ikh
+      parentName: Max_Maxter_FINAL_OK:R_ball_jnt
+      position: {x: 0.001915322, y: 2.6480929e-10, z: 3.1241675e-17}
+      rotation: {x: 0.7054514, y: 0.048356358, z: -0.7054514, w: 0.048356358}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_foot_ikh
+      parentName: Max_Maxter_FINAL_OK:R_ball_jnt
+      position: {x: 2.9531932e-18, y: 2.5257573e-18, z: -1.6055482e-12}
+      rotation: {x: 0.000000001138711, y: 1, z: 0.0000000053618736, w: 6.1056244e-18}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ballIK_jnt
+      parentName: Max_Maxter_FINAL_OK:R_tip_jnt
+      position: {x: 0.0010811201, y: -6.200414e-12, z: 1.0880186e-18}
+      rotation: {x: -6.123234e-17, y: 1, z: -2.9478123e-15, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Maxter_FINAL_OK:R_ball_ikh
+      parentName: Max_Maxter_FINAL_OK:R_ballIK_jnt
+      position: {x: 0.0010811201, y: 6.200417e-12, z: 2.526835e-11}
+      rotation: {x: 0, y: -0.000000010943652, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.07
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
