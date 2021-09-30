@@ -9,19 +9,15 @@ public class PlayerController : MonoBehaviour
 {
 
     public float speed;
-    private GameObject score_txt;
-    private int score_count;
     private float horizontalInput;
     private float verticalInput;
-
+    
     private PhotonView _view;
-
+    
+    
     public void Start()
     {
-        score_count = 0;
         _view = GetComponent<PhotonView>();
-        score_txt = GameObject.FindGameObjectWithTag("Score_txt");
-
     }
 
     // Update is called once per frame
@@ -45,14 +41,16 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Pickup"))
         {
-            IncrementScore();
+            LevelController.instancia.IncreaseScoreTxt();
             Destroy(other.gameObject);
         }
     }
-
+    
+    /* 
     private void IncrementScore()
     {
         score_count++;
         score_txt.GetComponent<Text>().text = "" + score_count;
     }
+    */
 }
