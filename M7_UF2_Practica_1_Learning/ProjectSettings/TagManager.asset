@@ -4,9 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Pickup_red
-  - Pickup_green
-  - Pickup
+  - Red_Cube
+  - Green_Cube
   layers:
   - Default
   - TransparentFX
