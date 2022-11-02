@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
     private float verticalInput;
 
 
+
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
@@ -41,11 +43,11 @@ public class PlayerController : MonoBehaviour
         }
 
 
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (!haveAPickup)
             {
-
                 RaycastHit hit;
                 if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.TransformDirection(Vector3.forward), out hit, pickupRange, pickupMask))
                 {
