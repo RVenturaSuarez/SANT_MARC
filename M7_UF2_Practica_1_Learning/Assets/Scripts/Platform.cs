@@ -12,13 +12,13 @@ public class Platform : MonoBehaviour
         {
             if (target_tag.Equals("Red_Cube"))
             {
-                GameManager.instance.isRedCubeOK = true;
-                GameManager.instance.CheckStateCubes();
+                GameManager.instance.currentLevelManager.isRedCubeOK = true;
+                GameManager.instance.currentLevelManager.CheckStateObjetives();
             }
             else
             {
-                GameManager.instance.isGreenCubeOK = true;
-                GameManager.instance.CheckStateCubes();
+                GameManager.instance.currentLevelManager.isGreenCubeOK = true;
+                GameManager.instance.currentLevelManager.CheckStateObjetives();
             }
         }
     }
@@ -26,15 +26,18 @@ public class Platform : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag.Equals("Red_Cube"))
+        if (other.tag.Equals(target_tag))
         {
-            GameManager.instance.isRedCubeOK = false;
-            GameManager.instance.CheckStateCubes();
-        }
-        else
-        {
-            GameManager.instance.isGreenCubeOK = false;
-            GameManager.instance.CheckStateCubes();
+            if (target_tag.Equals("Red_Cube"))
+            {
+                GameManager.instance.currentLevelManager.isRedCubeOK = false;
+                GameManager.instance.currentLevelManager.CheckStateObjetives();
+            }
+            else
+            {
+                GameManager.instance.currentLevelManager.isGreenCubeOK = false;
+                GameManager.instance.currentLevelManager.CheckStateObjetives();
+            }
         }
 
     }

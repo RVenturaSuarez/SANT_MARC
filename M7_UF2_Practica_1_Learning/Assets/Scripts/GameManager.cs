@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,12 +7,11 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance;
-
-    public GameObject portal;
-    public bool isRedCubeOK;
-    public bool isGreenCubeOK;
-
-
+    public LevelManager currentLevelManager;
+    public int coins;
+    public float timeToFinish;
+    
+    
     private void Awake()
     {
         if (instance == null)
@@ -25,18 +25,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-    public void CheckStateCubes()
+    public void Update()
     {
-        if (isGreenCubeOK && isRedCubeOK)
-        {
-            portal.SetActive(true);
-        } else
-        {
-            portal.SetActive(false);
-        }
+        timeToFinish += Time.deltaTime;
     }
-
-
-
 }
