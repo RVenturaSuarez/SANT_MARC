@@ -547,6 +547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 112923588}
   - component: {fileID: 112923589}
+  - component: {fileID: 112923590}
   m_Layer: 0
   m_Name: ------ LevelManager ------
   m_TagString: Untagged
@@ -584,12 +585,112 @@ MonoBehaviour:
   check_icon_cube_green: {fileID: 1266376223}
   check_icon_cube_red: {fileID: 650283599}
   check_icon_cube_coins: {fileID: 529683068}
+  audioSource: {fileID: 112923590}
+  clip_Victoria: {fileID: 8300000, guid: 90c1e23621fceaa488de1c33d605a74b, type: 3}
+  clip_Pickup_moneda: {fileID: 8300000, guid: 7df7901a73295f04fa120fe2f32fdeab, type: 3}
   portal: {fileID: 1482901371}
   isGreenCubeOK: 0
   isRedCubeOK: 0
   text_counter_coins: {fileID: 43105938}
   maxCoins: 3
   currentCoins: 0
+  timer_txt: {fileID: 0}
+--- !u!82 &112923590
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112923587}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 0.5
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &220599112
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +986,7 @@ MonoBehaviour:
   targetPoint: {fileID: 292556288}
   respawn: {fileID: 1999641867}
   haveAPickup: 0
-  pickupRange: 10
+  rayCastRange: 100
   pickupMask:
     serializedVersion: 2
     m_Bits: 128
@@ -2380,7 +2481,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLevelManager: {fileID: 0}
   coins: 0
-  timeToFinish: 0
+  timeToCompleteGame: 0
+  gameOver: 1
 --- !u!4 &1153413343
 Transform:
   m_ObjectHideFlags: 0

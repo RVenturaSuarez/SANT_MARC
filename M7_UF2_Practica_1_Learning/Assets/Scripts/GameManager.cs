@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,7 +10,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public LevelManager currentLevelManager;
     public int coins;
-    public float timeToFinish;
+    public float timeToCompleteGame;
+    public bool gameOver = true;
     
     
     private void Awake()
@@ -27,6 +29,18 @@ public class GameManager : MonoBehaviour
 
     public void Update()
     {
-        timeToFinish += Time.deltaTime;
+        if (!gameOver)
+        {
+            timeToCompleteGame += Time.deltaTime;
+        }
+
     }
+
+    public void ResetAll()
+    {
+        coins = 0;
+        timeToCompleteGame = 0f;
+        gameOver = false;
+    }
+    
 }

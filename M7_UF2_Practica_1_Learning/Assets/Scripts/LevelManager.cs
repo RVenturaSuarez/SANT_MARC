@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject check_icon_cube_green;
     [SerializeField] private GameObject check_icon_cube_red;
     [SerializeField] private GameObject check_icon_cube_coins;
+
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clip_Victoria;
+    [SerializeField] private AudioClip clip_Pickup_moneda;
 
 
     public GameObject portal;
@@ -22,13 +27,35 @@ public class LevelManager : MonoBehaviour
     public int currentCoins;
 
     
+    [Header("---- LEVEL FINISH ----")]
+    public TMP_Text timer_txt;
+    private float totalTime;
+    private int minutes, seconds, cents;
+
+    
 
     private void Start()
     {
-        GameManager.instance.currentLevelManager = this;
-        GameManager.instance.coins = currentCoins;
-        text_counter_coins.text = "<color=orange>Coins " + currentCoins + "/" + maxCoins + "</color>";
+        if (SceneManager.GetActiveScene().name.Equals("Level_1"))
+        {
+            Cursor.lockState = CursorLockMode.Locked; // Evitamos que el cursor salga de la pantalla de Play si no pulsamos espacio
+            GameManager.instance.currentLevelManager = this;
+            GameManager.instance.ResetAll();
+            GameManager.instance.coins = currentCoins;
+            text_counter_coins.text = "<color=orange>Coins " + currentCoins + "/" + maxCoins + "</color>";
+        } else if (SceneManager.GetActiveScene().name.Equals("Level_Finish"))
+        {
+            
+            Cursor.lockState = CursorLockMode.None;
+            totalTime = GameManager.instance.timeToCompleteGame;
 
+            minutes = (int) (totalTime / 60);
+            seconds = (int) (totalTime - minutes * 60);
+            cents = (int) ((totalTime - (int) totalTime) * 100f);
+
+            timer_txt.text = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, cents);
+        }
+        
     }
 
     
@@ -75,6 +102,7 @@ public class LevelManager : MonoBehaviour
         if (isGreenCubeOK && isRedCubeOK && currentCoins == maxCoins)
         {
             portal.SetActive(true);
+            audioSource.PlayOneShot(clip_Victoria);
         } else
         {
             portal.SetActive(false);
@@ -84,9 +112,21 @@ public class LevelManager : MonoBehaviour
     public void IncreaseCounterCoins()
     {
         currentCoins += 1;
+        audioSource.PlayOneShot(clip_Pickup_moneda);
         GameManager.instance.coins = currentCoins;
         text_counter_coins.text = "<color=orange>Coins " + currentCoins + "/" + maxCoins + "</color>";
         CheckStateObjetives();
+    }
+    
+    
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
     
 }
