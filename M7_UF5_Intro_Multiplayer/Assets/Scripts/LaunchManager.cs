@@ -20,7 +20,11 @@ public class LaunchManager : MonoBehaviourPunCallbacks
     [Header("---- OBJECTS PANEL ENTER GAME ----"),Space(10)]
     [SerializeField] private TMP_InputField playerName_inputField;
 
-    
+    private void Awake()
+    {
+        PhotonNetwork.AutomaticallySyncScene = true;
+    }
+
     private void Start()
     {
         OcultarTodosLosPaneles();
@@ -90,6 +94,7 @@ public class LaunchManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         Debug.Log(PhotonNetwork.NickName +  " se ha conectado a " + PhotonNetwork.CurrentRoom.Name);
+        PhotonNetwork.LoadLevel("GameScene");
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
