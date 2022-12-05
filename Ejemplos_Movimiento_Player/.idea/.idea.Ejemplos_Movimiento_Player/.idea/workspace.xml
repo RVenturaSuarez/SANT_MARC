@@ -13,6 +13,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c399efc08928422d8828d74a2b19ffba158600/f5/373ce2b2/SpaceAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e7f2b8407dc441f28814515d15959b551a000/18/f888ea97/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController_ThridPerson.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rigidbody_ThirdPerson.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,7 +78,7 @@
       <updated>1669813796846</updated>
       <workItem from="1669813803938" duration="3346000" />
       <workItem from="1669899549030" duration="215000" />
-      <workItem from="1669982224300" duration="1248000" />
+      <workItem from="1669982224300" duration="4666000" />
     </task>
     <servers />
   </component>
