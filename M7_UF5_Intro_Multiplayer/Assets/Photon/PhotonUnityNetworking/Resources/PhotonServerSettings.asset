@@ -40,6 +40,9 @@ MonoBehaviour:
   - Fire
   - RespawnSpaceship
   - Actualizar_Log_TXT
+  - Actualizar_Lista_Usuarios
+  - RPC_TakeDamage
+  - LoadGameScene_PunRPC
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1
